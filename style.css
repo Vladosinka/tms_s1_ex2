@@ -17,11 +17,11 @@ main{
 .name{
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    color: black;
     text-align: center;
 }
 
 .name_up{
+    color: black;
     margin-top: 100px;
 }
 
@@ -106,7 +106,7 @@ main{
     left: auto;
     top: 595px;
     margin: auto;
-    background-image: url(./img/city.svg);}
+    background-image: url(./img/city.svg);
 }
 
 .name_down{
@@ -120,6 +120,7 @@ main{
         left: calc(50% - 32px);
         top: 163px;
 }
+
 .text_down{
     position: absolute;
     width: 779px;
