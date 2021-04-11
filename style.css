@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+main{
+    width: 1400px;
+    margin: auto;
+}
+
+
+.name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+.name_up{
+    margin-top: 100px;
+}
+
+.line{
+    border: 1px;
+    width: 64px;
+    height: 2px;
+}
+
+.line_up{
+    position: absolute;
+    background: red;
+    left: calc(50% - 32px);
+    top: 163px;
+}
+
+.text{
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+.text_up{
+    position: absolute;
+    width: 363px;
+    height: 19px;
+    left: calc(50% - 181px);
+    top: 195px;
+}
+
+.tile_wrapper{
+    display: flex;
+    position: absolute;
+    top: 281px;
+    width: 1400px;
+}
+
+.tile_container{
+    display: block;
+    width: 350px;
+    height: 225px;
+    margin: auto;
+}
+
+.tile_image{
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid red;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+}
+
+.tile img{
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+      position: absolute;
+      margin-left: 50%;
+  }
+
+.tile_name{
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    height: 29px;
+    top: 100px;
+}
+
+.tile_description{
+    text-align: center;
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    top: 145px;
+}
+
+.fon_container{
+    position: absolute;
+    width: 1400px;
+    height: 325px;
+    left: auto;
+    top: 595px;
+    margin: auto;
+    background-image: url(./img/city.svg);}
+}
+
+.name_down{
+    margin-top: 75px;
+    color: white;
+}
+
+.line_down{
+        position: absolute;
+        background: white;
+        left: calc(50% - 32px);
+        top: 163px;
+}
+.text_down{
+    position: absolute;
+    width: 779px;
+    height: 20px;
+    left: calc(50% - 389px);
+    top: 195px;
+    color: white;
+}
+
+.fon_download{
+    text-align: center;
+    padding: 11px;
+    position: absolute;
+    left: calc(50% - 40px);
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 135px;
+    height: 42px;
+    left: 632px;
+    top: 245px;
+    color: white;
+}
+
+.fot_container{
+    position: relative;
+    width: 1400px;
+    height: 101px;
+    top: 778px;
+    margin: auto;
+    background-color: black;
+}
+
+.fot_image{
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 541px;
+    top: 30px;
+}
+
+.fot_name{
+    position: absolute;
+    width: 130px;
+    height: 15px;
+    left: 635px;
+    top: 71px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
