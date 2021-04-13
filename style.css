@@ -12,7 +12,9 @@ main{
     width: 1400px;
     margin: auto;
 }
-
+.wight{
+ padding: 0 100px;
+}
 
 .name{
     font-family: 'Raleway', sans-serif;
@@ -25,18 +27,18 @@ main{
     margin-top: 100px;
 }
 
-.line{
-    border: 1px;
+.name_up::after{
+    content: '';
+    display: block;
+    border: 1px solid red;
+    background-color: red;
     width: 64px;
-    height: 2px;
+    height: 1px;
+    margin-left: calc(50% - 32px);
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
-.line_up{
-    position: absolute;
-    background: red;
-    left: calc(50% - 32px);
-    top: 163px;
-}
 
 .text{
     font-size: 14px;
@@ -44,19 +46,9 @@ main{
     text-align: center;
 }
 
-.text_up{
-    position: absolute;
-    width: 363px;
-    height: 19px;
-    left: calc(50% - 181px);
-    top: 195px;
-}
-
 .tile_wrapper{
+    margin-top: 67px;
     display: flex;
-    position: absolute;
-    top: 281px;
-    width: 1400px;
 }
 
 .tile_container{
@@ -79,94 +71,91 @@ main{
 .tile img{
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
-      position: absolute;
-      margin-left: 50%;
+    position: absolute;
+    margin-left: 50%;
   }
 
 .tile_name{
-    position: absolute;
     text-align: center;
-    width: 350px;
-    height: 29px;
-    top: 100px;
+    margin-top: 30px;
 }
 
 .tile_description{
     text-align: center;
-    position: absolute;
-    width: 350px;
-    height: 60px;
-    top: 145px;
+    margin-top: 16px;
 }
 
 .fon_container{
-    position: absolute;
     width: 1400px;
     height: 325px;
-    left: auto;
-    top: 595px;
-    margin: auto;
+    margin-top: 88px;
     background-image: url(./img/city.svg);
 }
 
+.fon::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    width: 1400px;
+    height: 325px;
+    z-index: 0;
+}
+
 .name_down{
-    margin-top: 75px;
+    padding-top: 76px;
     color: white;
 }
 
+.name_down::after{
+    content: '';
+    display: block;
+    border: 1px solid white;
+    background-color: white;
+    width: 64px;
+    height: 1px;
+    margin-left: calc(50% - 32px);
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
 .line_down{
-        position: absolute;
-        background: white;
-        left: calc(50% - 32px);
-        top: 163px;
+    margin-top: 48px;
+    background: white;
+    margin-left: calc(50% - 32px);
 }
 
 .text_down{
-    position: absolute;
-    width: 779px;
-    height: 20px;
-    left: calc(50% - 389px);
-    top: 195px;
+    margin-top: 30px;
+    text-align: center;
     color: white;
 }
 
 .fon_download{
-    text-align: center;
-    padding: 11px;
-    position: absolute;
-    left: calc(50% - 40px);
-    border: 1px solid white;
-    box-sizing: border-box;
-    width: 135px;
-    height: 42px;
-    left: 632px;
-    top: 245px;
     color: white;
+    text-align: center;
+    margin-top: 41px;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-left: calc(50% - 67px);
+    padding: 11px 0;
+    width: 135px;
 }
 
 .fot_container{
-    position: relative;
     width: 1400px;
     height: 101px;
-    top: 778px;
     margin: auto;
     background-color: black;
 }
 
 .fot_image{
-    position: absolute;
-    width: 317px;
-    height: 23px;
-    left: 541px;
-    top: 30px;
+    margin-left: 541px;
+    padding-top: 30px;
 }
 
 .fot_name{
-    position: absolute;
-    width: 130px;
-    height: 15px;
-    left: 635px;
-    top: 71px;
+    padding-top: 18px;
+    text-align: center;
     font-size: 12px;
     text-align: center;
     color: white;
