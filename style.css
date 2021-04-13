@@ -39,7 +39,6 @@ main{
     margin-bottom: 30px;
 }
 
-
 .text{
     font-size: 14px;
     color: grey;
@@ -116,12 +115,6 @@ main{
     margin-left: calc(50% - 32px);
     margin-top: 48px;
     margin-bottom: 30px;
-}
-
-.line_down{
-    margin-top: 48px;
-    background: white;
-    margin-left: calc(50% - 32px);
 }
 
 .text_down{
