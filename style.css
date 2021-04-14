@@ -76,6 +76,7 @@ main{
 .tile_name{
     text-align: center;
     margin-top: 30px;
+    font-size: 20px;
 }
 
 .tile_description{
@@ -125,6 +126,7 @@ main{
     margin-top: 30px;
     text-align: center;
     color: white;
+    font-size: 16px;
 }
 
 .fon_download{
